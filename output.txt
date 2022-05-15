@@ -1,0 +1,74 @@
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/cmark-gfm.build/Release/RUN_TESTS.build/Script-003C8D08B0008F35F218E126.sh (in target 'RUN_TESTS' from project 'cmark-gfm')
+    cd /Users/shantini/swift-project/cmark
+    /bin/sh -c /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/cmark-gfm.build/Release/RUN_TESTS.build/Script-003C8D08B0008F35F218E126.sh
+Test project /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64
+      Start  1: api_test
+ 1/13 Test  #1: api_test ...............................   Passed    0.45 sec
+      Start  2: html_normalization
+ 2/13 Test  #2: html_normalization .....................   Passed    0.16 sec
+      Start  3: spectest_library
+ 3/13 Test  #3: spectest_library .......................***Failed    0.10 sec
+      Start  4: pathological_tests_library
+ 4/13 Test  #4: pathological_tests_library .............***Failed    4.90 sec
+      Start  5: roundtriptest_library
+ 5/13 Test  #5: roundtriptest_library ..................***Failed    0.09 sec
+      Start  6: entity_library
+ 6/13 Test  #6: entity_library .........................***Failed    0.06 sec
+      Start  7: spectest_executable
+ 7/13 Test  #7: spectest_executable ....................***Failed    0.09 sec
+      Start  8: smartpuncttest_executable
+ 8/13 Test  #8: smartpuncttest_executable ..............***Failed    0.07 sec
+      Start  9: extensions_executable
+ 9/13 Test  #9: extensions_executable ..................***Failed    0.07 sec
+      Start 10: roundtrip_extensions_executable
+10/13 Test #10: roundtrip_extensions_executable ........***Failed    0.07 sec
+      Start 11: option_table_prefer_style_attributes
+11/13 Test #11: option_table_prefer_style_attributes ...***Failed    0.07 sec
+      Start 12: option_full_info_string
+12/13 Test #12: option_full_info_string ................***Failed    0.07 sec
+      Start 13: regressiontest_executable
+13/13 Test #13: regressiontest_executable ..............***Failed    0.07 sec
+
+15% tests passed, 11 tests failed out of 13
+
+Total Test time (real) =   6.31 sec
+
+The following tests FAILED:
+	  3 - spectest_library (Failed)
+	  4 - pathological_tests_library (Failed)
+	  5 - roundtriptest_library (Failed)
+	  6 - entity_library (Failed)
+	  7 - spectest_executable (Failed)
+	  8 - smartpuncttest_executable (Failed)
+	  9 - extensions_executable (Failed)
+	 10 - roundtrip_extensions_executable (Failed)
+	 11 - option_table_prefer_style_attributes (Failed)
+	 12 - option_full_info_string (Failed)
+	 13 - regressiontest_executable (Failed)
+Errors while running CTest
+Output from these tests are in: /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+Command PhaseScriptExecution failed with a nonzero exit code
+
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/src/cmark-gfm.build/Release/libcmark-gfm.build/Script-EA74C894C8DC779C784B0D36.sh (in target 'libcmark-gfm' from project 'cmark-gfm')
+    cd /Users/shantini/swift-project/cmark
+    /bin/sh -c /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/src/cmark-gfm.build/Release/libcmark-gfm.build/Script-EA74C894C8DC779C784B0D36.sh
+
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/extensions/cmark-gfm.build/Release/libcmark-gfm-extensions.build/Script-904CC875F0E69EC94972AFC1.sh (in target 'libcmark-gfm-extensions' from project 'cmark-gfm')
+    cd /Users/shantini/swift-project/cmark
+    /bin/sh -c /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/extensions/cmark-gfm.build/Release/libcmark-gfm-extensions.build/Script-904CC875F0E69EC94972AFC1.sh
+
+PhaseScriptExecution Generate\ CMakeFiles/ALL_BUILD /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/cmark-gfm.build/Release/ALL_BUILD.build/Script-E2413AF6340EDEB7D4FF18F5.sh (in target 'ALL_BUILD' from project 'cmark-gfm')
+    cd /Users/shantini/swift-project/cmark
+    /bin/sh -c /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/cmark-gfm.build/Release/ALL_BUILD.build/Script-E2413AF6340EDEB7D4FF18F5.sh
+Build all projects
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution CMake\ PostBuild\ Rules /Users/shantini/swift-project/build/Xcode-ReleaseAssert+stdlib-DebugAssert/cmark-macosx-x86_64/cmark-gfm.build/Release/RUN_TESTS.build/Script-003C8D08B0008F35F218E126.sh (in target 'RUN_TESTS' from project 'cmark-gfm')
+(1 failure)
+ERROR: command terminated with a non-zero exit status 65, aborting
+
+MacBook-Pro:swift shantini$
