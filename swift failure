@@ -1,0 +1,5 @@
+[1340/1528][ 87%][1700.660s] Linking CXX shared library lib/swift/macosx/x86_64/libswiftCore.dylib
+ld: warning: static initializer found in 'stdlib/public/runtime/CMakeFiles/swiftRuntime-macosx-x86_64.dir/Metadata.cpp.o'. Use -no_inits to make this an error.  Use -no_warn_inits to suppress warning
+ld: warning: static initializer found in 'stdlib/public/runtime/CMakeFiles/swiftRuntime-macosx-x86_64.dir/MetadataLookup.cpp.o'. Use -no_inits to make this an error.  Use -no_warn_inits to suppress warning
+ld: warning: static initializer found in 'stdlib/public/stubs/CMakeFiles/swiftStdlibStubs-macosx-x86_64.dir/GlobalObjects.cpp.o'. Use -no_inits to make this an error.  Use -no_warn_inits to suppress warning
+[1341/1528][ 87%][1701.000s] Generating ../../../lib/swift/macosx/libswiftCore.dylib
